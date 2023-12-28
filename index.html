@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <title>Home</title>
     <style>
         @font-face {
@@ -23,62 +24,74 @@
 
         html,body{
           font-family: Arial, Helvetica, sans-serif;
-          background: url(imagens/paisagem\ 3.png) no-repeat center fixed;
-          background-size: cover;
-          
+          height: 100vh;
+          width: 100vw;
+          background: url(imagens/paisagem\ 3.png)fixed no-repeat center;
+            background-size: cover;
+            
         }
         header{
+            background-color:rgba(10, 10, 10, 0.301);
+            box-shadow: 1px 1px 5px black;
             text-align: center;
+        }
+        header h1{
             font-family: "DBZ";
             font-weight: 100;
-            color: white;
-            padding: 20px;
-            text-shadow: 1px 1px 5px black;
-            box-shadow: 1px 1px 5px black;
+            font-size: 1.5em;
+            color:black;
+            text-shadow: 1px 1px 5px orange;            
+           
+        }
+        main{
+            text-align: center;
+        }
+        main img{
+            max-width: 100%;
+            border-radius: 50%;
+            border: solid;
+          
+        
         }
         section{
-            text-align: center;
+            background: url(imagens/goku.png) no-repeat center;
+            background-size: contain;
         }
-            section#metaru >img {
-                position: relative;
-                top: -200px;
-            border: solid;
-            width: 150px;
-            border-radius: 50%;
-        }
-        article{
-            position: relative;
-            top: -200px;
-            border-radius: 20px;
-            border: solid;
+        article{ 
             margin: auto;
-            width: 500px;
-             background: url(imagens/goku_nuven\ \(1\)\ \(1\).png) no-repeat;
+            max-width: 70%;
+            min-width: 310px;
+         border-top-right-radius: 10px;
+         border-top-left-radius: 10px;
+        border: solid 3px;
+       background-color: rgba(0, 110, 255, 0.363);
+       
+        }
+        h2{
+            font-family: "DBZ";
+            font-weight: 100;
+            color: black;
+            text-shadow: 1px 1px 5px orange;
         }
         p{
-            text-indent: 2.0em;
-            font-size: 1.2em;
-            color: rgb(255, 255, 255);
-            text-shadow: 1px 1px 5px black;
-           border-radius: 10px;
-            background-color: rgba(1, 15, 54, 0.418);
-            text-align: center;
-            height: 500px;
-            
+            color: white;
             padding: 10px;
-            
+            text-align: center;
+            text-shadow: 1px 1px 5px black;
+            font-size: large;
         }
-        nav{
-            color: rgba(2, 2, 2, 0.753);
-            width: 200px;
-            height: 300px;
-         background: url(imagens/dragao\ \(1\)\ \(1\).png) no-repeat; 
+      
+        nav{ 
+            padding: 10px;
+        width: 200px;
+        background: url(imagens/sheilong_1.png) no-repeat center;
+       
+        
         }
        
         
        nav img{
-        position: relative;
-
+            
             border-radius: 50%;
             width: 40px;
             box-sizing: border-box;
@@ -94,34 +107,33 @@
     transition: 0.1s;
         }
         
-
     </style>
 </head>
 <body>
    <header>
     <h1><img src="imagens/nuven (1) (1).png" alt=""> Metaru <img src="imagens/esfera do dragao (1) (1).png" alt=""> Loste</h1>
    </header>
+
    <nav>
-    
     <a href="index.html"><img src="imagens/logo 1.png" alt=""></a><br><br>
     <a href="Jogos.html"><img src="imagens/logo 2.png" alt=""></a><br><br> 
-    <a href=""><img src="imagens/logo 3.png" alt=""></a><br><br>
-    <a href=""><img src="imagens/logo 4.png" alt=""></a><br><br>
+    <a href="gostos.html"><img src="imagens/logo 3.png" alt=""></a><br><br>
+    <a href="#"><img src="imagens/logo 4.png" alt=""></a><br><br>
    </nav>
-        <section id="metaru" >
-            <img src="imagens/metaru-feliz.png" alt="metaru-feliz">
-        </section>
-        <section id="menus">
-           
-        </section>
-        <article>
-            <p>
-                Me chamo Matheus, tenho 23 anos e sou natural do Rio de Janeiro. <br><br>
-                
-                Costumo ser uma pessoa tranquila e compreensiva. Apesar da minha idade, carrego um lado um tanto <br><br> quanto infantil, mas de forma positiva, caracterizado pela ingenuidade e inocência que afloram em <br><br>determinados momentos. <br><br>Tenho um apreço especial por conversas significativas e por desvendar as verdadeiras essências das<br><br> pessoas, sempre buscando ir além do superficial. <br><br>Costumam dizer também que sou um excelente ouvinte, o que sempre me faz sorrir. <br><br>Estou sempre aberto a novas conexões e experiências que enriqueçam minha jornada.</p>
-        </article>
-        <section id="centro">
-        </section>
+        <main>
+            <div>
+                <img src="imagens/metaru-feliz (1).png" alt="metaru-feliz"></div>
+                <h2>Sobre mim</h2>
+            <section>
+                <article>
+                    <p>
+                        Me chamo Matheus, tenho 23 anos e sou natural do Rio de Janeiro. <br><br>
+            
+                        Costumo ser uma pessoa tranquila e compreensiva. Apesar da minha idade, carrego um lado um tanto <br><br> quanto infantil, mas de forma positiva, caracterizado pela ingenuidade e inocência que afloram em <br><br>determinados momentos. <br><br>Tenho um apreço especial por conversas significativas e por desvendar as verdadeiras essências das<br><br> pessoas, sempre buscando ir além do superficial. <br><br>Costumam dizer também que sou um excelente ouvinte, o que sempre me faz sorrir. <br><br>Estou sempre aberto a novas conexões e experiências que enriqueçam minha jornada.</</p>
+                </article>
+            </section>
+        </main>
+     
       
 </body>
 </html>
